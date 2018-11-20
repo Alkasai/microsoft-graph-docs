@@ -153,7 +153,7 @@ It is appropriate for scenarios that depend on [streamlining appointment booking
 
 
 ## Permissions
-The least privileged permission you need to get free/busy information is Calendar.Read. Depending on your app scenario, this can be consented by the signed-in user or administrator.
+The least privileged permission you need to get free/busy information is Calendars.Read. Depending on your app scenario, this can be consented by the signed-in user or administrator.
 Other than the free/busy status and working hours of requested entities, **getSchedule** can also return the subject and location of an event, provided that:
 
 - If the event is marked with low sensitivity level - `normal` or `personal`
